@@ -69,7 +69,6 @@
                         </goals>
                         <configuration>
                             <executable>node</executable>
-                            <workingDirectory>${project.basedir}</workingDirectory>
                             <arguments>
                                 <argument>app.js</argument>
                             </arguments>
