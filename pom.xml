@@ -11,12 +11,9 @@
         <!-- Define the Node.js and npm versions -->
         <node.version>v16.8.0</node.version>
         <npm.version>7.21.0</npm.version>
-    </properties>
-
-    <properties>
-         <!-- Define the java version --> 
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+        <!-- Define the java version --> 
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <build>
