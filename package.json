@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "mkdir -p dist && cp public/index.html dist/index.html"
   },
   "repository": {
     "type": "git",
