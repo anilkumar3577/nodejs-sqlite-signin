@@ -63,7 +63,7 @@
                 <executions>
                     <execution>
                         <id>start node server</id>
-                        <phase>deploy</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>exec</goal>
                         </goals>
