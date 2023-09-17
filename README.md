@@ -24,7 +24,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx                  
 sudo systemctl status nginx                     
 
-**############IMPORTANT##############**
+**############IMPORTANT##############**                       
 Add the below code in the /etc/nginx/conf.d/node-js.conf                
 You will have to create the node-js.conf                
 The code below is to make the application available both through the http://localhost:3000                
