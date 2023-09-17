@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nohup node app.js > app.log 2>&1 &",
-    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp -r dist/* /usr/share/nginx/html"
+    "build": " cp -r public/index.html /usr/share/nginx/html"
   },
   "repository": {
     "type": "git",
