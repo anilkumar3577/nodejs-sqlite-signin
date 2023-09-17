@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nohup node app.js > app.log 2>&1 & && cp src/index.html dist/index.html",
+    "start": "nohup node app.js > app.log 2>&1 &",
+    "build": "mkdir -p dist && cp public/index.html dist/index.html",
     "deploy": "cp -r dist/* /usr/share/nginx/html"
   },
   "repository": {
