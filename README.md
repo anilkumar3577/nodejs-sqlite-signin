@@ -31,10 +31,9 @@ The code below is to make the application available both through the http://loca
 And also through deployment of nginx, that is with http://localhost as well.                
 The code:
 ***********************
-server {
+server {    
     listen 80;
     server_name 44.192.122.254;
-
     location / {
         proxy_pass http://44.192.122.254:3000;
         proxy_set_header Host $host;
