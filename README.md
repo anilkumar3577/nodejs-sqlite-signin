@@ -36,13 +36,15 @@ The code is in the repo as node-js.conf
 sudo git clone https://github.com/PintoAdi/nodejs-sqlite-signin.git                                                                  
 cd nodejs-sqlite-signin.git                    
 sudo npm install  
+**App running in foreground**
 To build the package or dist directory use sudo mvn package and the app will run in foreground                  
 once the app runs in forground saying the application is running on 3000                       
+
 You can access it both in http://public-ip of instance:3000 and http://public-ip of instance                
+**App running in Background**
 If you want the app to run in background once you run sudo mvn package and it says app running on 3000                
 You can exit using ctrl+C and run the below command:                    
 sudo npm run build                 
-Then app will run in background and you can access it from both http://public-ip of instance:3000 and http://public-ip of instance            
 
 **Once done your aplication is running in background.**
 
