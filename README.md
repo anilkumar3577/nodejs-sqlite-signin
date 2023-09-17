@@ -52,4 +52,4 @@ sudo npm run build
 
 **Once done your aplication is running in background.**
 
-**YOU CAN ACCESS YOUR APPLICATION FROM BOTH http://localhost:3000 and http://localhost**
+**YOU CAN ACCESS YOUR APPLICATION FROM BOTH http://public-ip of instance:3000 and http://public-ip of instance**
