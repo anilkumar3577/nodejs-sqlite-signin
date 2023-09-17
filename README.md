@@ -45,7 +45,7 @@ server {
 **############IMPORTANT##############**
 
 **Clone the directory:**
-sudo git clone https://github.com/PintoAdi/nodejs-sqlite-signin.git
+sudo git clone https://github.com/PintoAdi/nodejs-sqlite-signin.git                                  
 cd nodejs-sqlite-signin.git
 sudo npm install
 sudo npm run build
