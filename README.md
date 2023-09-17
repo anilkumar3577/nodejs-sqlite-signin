@@ -29,18 +29,7 @@ Add the below code in the /etc/nginx/conf.d/node-js.conf
 You will have to create the node-js.conf                
 The code below is to make the application available both through the http://localhost:3000                
 And also through deployment of nginx, that is with http://localhost as well.                
-The code:
-***********************
-server {    
-    listen 80;
-    server_name 44.192.122.254;
-    location / {
-        proxy_pass http://44.192.122.254:3000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
-***********************
+The code is in the repo as node-js.conf
 **############IMPORTANT##############**
 
 **Clone the directory:**
